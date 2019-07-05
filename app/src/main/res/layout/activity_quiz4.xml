@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nadiah.quiz.quiz4">
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/budapest"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:text="Budapest Merupakan Ibukota Negara ....... "
+        android:background="#3949AB"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:paddingLeft="3dp"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_jb"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#546E7A"
+        android:backgroundTint="#000"
+        android:backgroundTintMode="screen"
+
+        android:hint="Isi Disini"
+        android:padding="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_jawaban"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="#3D5AFE"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="20dp"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+</FrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nadiah.quiz.quiz3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#E0E0E0"
+
+        android:paddingTop="80dp"
+        android:text="Berapa Jumlah Negara di Afrika Barat?"
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioGroup
+            android:id="@id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            >
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:background="#E0E0E0"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:onClick="onRadioButton"
+                />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:background="#E0E0E0"
+                android:text="7"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="onRadioButton"
+                />
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="19"
+                android:background="#E0E0E0"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="onRadioButton"
+                />
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="16"
+                android:background="#E0E0E0"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:onClick="onRadioButton"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#3949AB"
+        android:text="Pembahasan"
+        android:textColor="#fff"
+        android:textSize="20sp"
+
+        />
+</LinearLayout>

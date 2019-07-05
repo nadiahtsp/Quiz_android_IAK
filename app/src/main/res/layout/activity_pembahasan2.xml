@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nadiah.quiz.pembahasan2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:background="#3949AB"
+            android:text="Pembahasan"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="40dp" />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="Palung Terdalam di Samudra Pasifik Adalah .."
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            />
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="200dp"
+            android:background="@drawable/mrn"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="PALUNG MARIANA"
+            android:layout_marginLeft="20dp"
+            android:textSize="19sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="312dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="3dp"
+            android:text="   Palung Mariana atau Palung Marianas adalah palung yang paling dalam yang diketahui, dan lokasi terdalamnya berada di kerak Bumi. Palung ini terletak di dasar barat laut Samudra Pasifik, sebelah timur Kepualauan Mariana di 11° 21' Lintang Utara dan 142° 12' Bujur Timur, dekat juga dengan negara Jepang. Palung ini merupakan batasan di mana dua lempeng tektonik bertemu, zona subduksi di mana Lempeng Pasifik disubduksi di bawah Lempeng Filipina. Kedalaman dari palung ini jauh di bawah permukaan laut, lebih jauh dari ketinggian Gunung Everest di atas permukaan laut. "
+            android:textSize="17sp" />
+
+        <TextView
+        android:layout_width="312dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:text="  Palung ini memiliki kedalaman maksimum 10.911 meter (35.798 kaki) di bawah permukaan laut. Kalau dihitung menurut garis lintang dan garis bujur Bumi, palung ini berada 6.366,4 km dari pusat Bumi. Samudra Arktik, di sisi lain, dengan kedalaman 4 km, memiliki jarak dasar laut dengan pusat bumi sebesar ~6.352,8 km, 13,6 km lebih dekat."
+       android:textSize="17sp"
+        android:layout_marginLeft="28dp"
+
+        />
+        <Button
+            android:id="@+id/next"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="soal berikutnya"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="#3949AB"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+</ScrollView>

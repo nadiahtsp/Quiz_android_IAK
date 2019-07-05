@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nadiah.quiz.pembahasan4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:background="#3949AB"
+            android:text="Pembahasan"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="40dp" />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="Budapest Merupakan Ibukota Negara ...."
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            />
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buda"
+            />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="Hongaria"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="19sp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="  Budapest adalah ibu kota Hongaria. Kota seluas 525,16 km² ini berpenduduk 1.695.000 jiwa (2005) dan dibagi menjadi 23 distrik."
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text=   "Kota ini merupakan penggabungan yang dilakukan pada tahun 1873 terhadap dua kota bersebelahan, Obuda (sisi barat) dan Pest (sisi timur), namun terpisah oleh Sungai Donau."
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="25dp"
+            />
+        <Button
+            android:id="@+id/next"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="soal berikutnya"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#3949AB"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+</ScrollView>
